@@ -2,8 +2,8 @@
 var icon = document.getElementById("icon");
 
 icon.onclick = function(){
-    document.body.classList.toggle("dark-theme");
-    if(document.body.classList.toggle("dark-theme")){
+   var isDarkTheme =  document.body.classList.toggle("dark-theme");
+    if(isDarkTheme){
         icon.src = "portfolio_site_img/moon.png";
     } 
     
