@@ -1,0 +1,40 @@
+.hireme-container {
+    text-align: center;
+    margin-top: 10%;
+    color: var(--secondary-color);
+}
+
+.hireme-container h1 {
+    font-size: 50px;
+}
+
+.hireme-container p {
+    margin-bottom: 20px;
+}
+
+.hireme-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hireme-container input, .hireme-container textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
+.hireme-container button {
+    padding: 10px 20px;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hireme-container button:hover {
+    background: #ff4321;
+}
